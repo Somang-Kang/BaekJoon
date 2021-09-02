@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.17)
+project(BaekJoon)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(BaekJoon
+        1969/1969_solving.cpp)
