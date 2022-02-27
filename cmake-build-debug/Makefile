@@ -143,32 +143,32 @@ BaekJoon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/build
 .PHONY : BaekJoon/fast
 
-probs/5525_solving.o: probs/5525_solving.cpp.o
+probs/9996_solving.o: probs/9996_solving.cpp.o
 
-.PHONY : probs/5525_solving.o
+.PHONY : probs/9996_solving.o
 
 # target to build an object file
-probs/5525_solving.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/5525_solving.cpp.o
-.PHONY : probs/5525_solving.cpp.o
+probs/9996_solving.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/9996_solving.cpp.o
+.PHONY : probs/9996_solving.cpp.o
 
-probs/5525_solving.i: probs/5525_solving.cpp.i
+probs/9996_solving.i: probs/9996_solving.cpp.i
 
-.PHONY : probs/5525_solving.i
+.PHONY : probs/9996_solving.i
 
 # target to preprocess a source file
-probs/5525_solving.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/5525_solving.cpp.i
-.PHONY : probs/5525_solving.cpp.i
+probs/9996_solving.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/9996_solving.cpp.i
+.PHONY : probs/9996_solving.cpp.i
 
-probs/5525_solving.s: probs/5525_solving.cpp.s
+probs/9996_solving.s: probs/9996_solving.cpp.s
 
-.PHONY : probs/5525_solving.s
+.PHONY : probs/9996_solving.s
 
 # target to generate assembly for a file
-probs/5525_solving.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/5525_solving.cpp.s
-.PHONY : probs/5525_solving.cpp.s
+probs/9996_solving.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/9996_solving.cpp.s
+.PHONY : probs/9996_solving.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BaekJoon"
-	@echo "... probs/5525_solving.o"
-	@echo "... probs/5525_solving.i"
-	@echo "... probs/5525_solving.s"
+	@echo "... probs/9996_solving.o"
+	@echo "... probs/9996_solving.i"
+	@echo "... probs/9996_solving.s"
 .PHONY : help
 
 
