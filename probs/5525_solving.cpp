@@ -19,7 +19,7 @@ int main(){
                 i++;
             }
             if(S[i]=='O' &&i<M-1) cnt-=1;
-            if(cnt<N) {
+            if(cnt<2*N) {
                 cnt=0;
                 continue;
             }

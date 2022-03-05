@@ -17,12 +17,12 @@ int main(){
     while(N--){
         cin>>str;
         if(pat.length()-1>str.length()) {
-            cout<<"NE";
+            cout<<"NE"<<endl;
             continue;
         }
         string str_left = str.substr(0,left_pat.length());
         string str_right = str.substr(str.length()-right_pat.length(),str.length());
-        if(left_pat==str_left && right_pat == str_right) cout<<"DA";
-        else cout<<"NE";
+        if(left_pat==str_left && right_pat == str_right) cout<<"DA"<<endl;
+        else cout<<"NE"<<endl;
     }
 }
