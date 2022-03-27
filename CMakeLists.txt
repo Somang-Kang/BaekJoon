@@ -4,4 +4,4 @@ project(BaekJoon)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(BaekJoon
-        probs/1389_solving.cpp)
+        probs/21938_solving.cpp)
