@@ -11,7 +11,6 @@ int main() {
     int N, M;
     cin >> N >> M;
 
-
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {
             cin>>arr[i][j];
@@ -28,31 +27,23 @@ int main() {
                 visited[i][j] = true;
                 flag=0;
             }
+            else flag=1;
             j++;
             if (j == M) break;
 
         }
-        /*
-        if (arr[i][j] == '-') {
-            cnt++;
-            while (arr[i][j] == '-') {
-                visited[i][j] = true;
-                j += 1;
-                if (j == M) break;
-            }
-        }
-        */
+
     }
     for (int j = 0; j < M; j++) {
         int i = 0;
         int flag = 1;
-        if (arr[i][j]=='|') cnt++;
         while(!visited[i][j]){
             if (arr[i][j] == '|'){
                 if(flag==1) cnt++;
                 visited[i][j] = true;
                 flag = 0;
             }
+            else flag = 1;
             i++;
             if (i == N) break;
         }
