@@ -77,27 +77,27 @@ include CMakeFiles/BaekJoon.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BaekJoon.dir/flags.make
 
-CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o: CMakeFiles/BaekJoon.dir/flags.make
-CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o: ../probs/1388_solving.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/somang/CLionProjects/BaekJoon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o -c /Users/somang/CLionProjects/BaekJoon/probs/1388_solving.cpp
+CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o: CMakeFiles/BaekJoon.dir/flags.make
+CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o: ../probs/13301_solving.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/somang/CLionProjects/BaekJoon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o -c /Users/somang/CLionProjects/BaekJoon/probs/13301_solving.cpp
 
-CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/somang/CLionProjects/BaekJoon/probs/1388_solving.cpp > CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.i
+CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/somang/CLionProjects/BaekJoon/probs/13301_solving.cpp > CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.i
 
-CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/somang/CLionProjects/BaekJoon/probs/1388_solving.cpp -o CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.s
+CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/somang/CLionProjects/BaekJoon/probs/13301_solving.cpp -o CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.s
 
 # Object files for target BaekJoon
 BaekJoon_OBJECTS = \
-"CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o"
+"CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o"
 
 # External object files for target BaekJoon
 BaekJoon_EXTERNAL_OBJECTS =
 
-BaekJoon: CMakeFiles/BaekJoon.dir/probs/1388_solving.cpp.o
+BaekJoon: CMakeFiles/BaekJoon.dir/probs/13301_solving.cpp.o
 BaekJoon: CMakeFiles/BaekJoon.dir/build.make
 BaekJoon: CMakeFiles/BaekJoon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/somang/CLionProjects/BaekJoon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BaekJoon"
