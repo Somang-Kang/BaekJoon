@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/somang/CLionProjects/BaekJoon/probs/10815_solving.cpp
+/Users/somang/CLionProjects/BaekJoon/probs/14425_solving.cpp
 iostream
 -
-vector
+string
 -
-algorithm
+set
 -
 
