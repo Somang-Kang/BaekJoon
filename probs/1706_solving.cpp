@@ -1,9 +1,6 @@
-//
-// Created by 강소망 on 2022/04/16.
-//
+
 #include <iostream>
 #include <string>
-#include <vector>
 using namespace std;
 
 int main(){
