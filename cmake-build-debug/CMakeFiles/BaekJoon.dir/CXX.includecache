@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/somang/CLionProjects/BaekJoon/probs/10816_solving.cpp
+/Users/somang/CLionProjects/BaekJoon/probs/1764_solving.cpp
 iostream
 -
-vector
+string
+-
+set
 -
 algorithm
--
-typeinfo
 -
 
