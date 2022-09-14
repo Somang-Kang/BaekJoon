@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "BaekJoon"
   "BaekJoon.pdb"
-  "CMakeFiles/BaekJoon.dir/probs/1269_solving.cpp.o"
+  "CMakeFiles/BaekJoon.dir/probs/1912_solving.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
