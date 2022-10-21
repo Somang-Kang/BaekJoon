@@ -1,85 +1,87 @@
 #include <iostream>
-#include <stack>;
+#include <stack>
+
+
 using namespace std;
-stack<int> s1;
-stack<int> s2;
-stack<int> s3;
+
+
+void hanoi(int n, int a, int b, int c);
 int cnt = 0;
-int flag = false;
 
-void move_stack(int a, int b){
-    int t;
-    if(a==1){
-        t = s1.top();
-        s1.pop();
-    }
-    else if(a==2){
-        t = s2.top();
-        s2.pop();
-    }
-    else if(a==3){
-        t = s3.top();
-        s3.pop();
+int N, K;
+bool finish = false;
+stack<int> s[4];
+
+int main() {
+
+
+    int testCase;
+    cin >> testCase;
+
+    while (testCase--) {
+        cin >> N ;
+
+        while (!s[1].empty()) { s[1].pop(); }
+        while (!s[2].empty()) { s[2].pop(); }
+        while (!s[3].empty()) { s[3].pop(); }
+
+        stack <int> temp;
+
+        for (int i = N; i >=1; i--) {
+            int num;
+            cin >> num;
+            temp.push(num);
+        }
+
+        for (int i = N; i >= 1; i--) {
+            for (int k = 0; k < temp.top(); k++) {
+                s[1].push(i);
+            }
+            temp.pop();
+        }
+
+        cin >> K;
+
+        hanoi(N, 1, 2, 3);
+
+        if (s[2].empty()) {
+            cout << 0;
+        }
+        for (int i = s[2].size() - 1; i >= 0; i--) {
+            int temp = s[2].top();
+            s[2].pop();
+            cout << temp << " ";
+        }
+
+        cout << "\n";
+        cnt = 0;
+        finish = false;
     }
 
-    if(b==1) s1.push(t);
-    else if(b==2) s2.push(t);
-    else if(b==3) s3.push(t);
+
 }
 
 
-void hanoi(int n,int k, int a,int b){
-    if(flag==true) return;
-    if(n==1){
-        cnt++;
-        move_stack(a,b);
-        if(cnt==k){
-            if(s2.empty()) cout<<"0"<<endl;
-            else{
-                while(!s2.empty()){
-                    cout<<s2.top()<<" ";
-                    s2.pop();
-                }
-                cout<<endl;
-                flag = true;
-            }
+void hanoi(int n, int a, int b, int c) {
 
-        }
+    if (n == 0) {
         return;
     }
-    hanoi(n-1,k,a,6-a-b);
-    if(flag==true) return;
-    cnt++;
-    move_stack(a,b);
-    if(cnt==k){
-        if(s2.empty()) cout<<"0"<<endl;
-        else{
-            while(!s2.empty()){
-                cout<<s2.top()<<" ";
-                s2.pop();
-            }
-            cout<<endl;
-            flag=true;
+    hanoi(n - 1, a, c, b);
+
+    if (finish == true) {
+        return;
+    }
+
+    while ( !finish && s[a].empty() == false && s[a].top() == n) {
+        s[c].push(n);
+        s[a].pop();
+
+        if (++cnt == K) {
+            finish = true;
         }
     }
-    hanoi(n-1,k,6-a-b,b);
-}
+    hanoi(n - 1, b,a,c);
 
 
-int main(){
-    int tc;
-    cin>>tc;
-    while(tc--){
-        int n,k;
-        cin>>n>>k;
-        for(int i = n;i>0;i--){
-            s1.push(i);
-        }
-        hanoi(n,k,1,3);
-        cnt = 0;
-        flag = false;
-        while(!s1.empty()) s1.pop();
-        while(!s2.empty()) s2.pop();
-        while(!s3.empty()) s3.pop();
-    }
 }
