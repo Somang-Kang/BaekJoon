@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/somang/CLionProjects/BaekJoon/probs/1912_solving.cpp
+/Users/somang/CLionProjects/BaekJoon/Class/practice_midterm.cpp
 iostream
+-
+stack
 -
 

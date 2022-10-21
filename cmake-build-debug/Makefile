@@ -143,32 +143,32 @@ BaekJoon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/build
 .PHONY : BaekJoon/fast
 
-probs/1912_solving.o: probs/1912_solving.cpp.o
+Class/practice_midterm.o: Class/practice_midterm.cpp.o
 
-.PHONY : probs/1912_solving.o
+.PHONY : Class/practice_midterm.o
 
 # target to build an object file
-probs/1912_solving.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/1912_solving.cpp.o
-.PHONY : probs/1912_solving.cpp.o
+Class/practice_midterm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/Class/practice_midterm.cpp.o
+.PHONY : Class/practice_midterm.cpp.o
 
-probs/1912_solving.i: probs/1912_solving.cpp.i
+Class/practice_midterm.i: Class/practice_midterm.cpp.i
 
-.PHONY : probs/1912_solving.i
+.PHONY : Class/practice_midterm.i
 
 # target to preprocess a source file
-probs/1912_solving.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/1912_solving.cpp.i
-.PHONY : probs/1912_solving.cpp.i
+Class/practice_midterm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/Class/practice_midterm.cpp.i
+.PHONY : Class/practice_midterm.cpp.i
 
-probs/1912_solving.s: probs/1912_solving.cpp.s
+Class/practice_midterm.s: Class/practice_midterm.cpp.s
 
-.PHONY : probs/1912_solving.s
+.PHONY : Class/practice_midterm.s
 
 # target to generate assembly for a file
-probs/1912_solving.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/probs/1912_solving.cpp.s
-.PHONY : probs/1912_solving.cpp.s
+Class/practice_midterm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BaekJoon.dir/build.make CMakeFiles/BaekJoon.dir/Class/practice_midterm.cpp.s
+.PHONY : Class/practice_midterm.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BaekJoon"
-	@echo "... probs/1912_solving.o"
-	@echo "... probs/1912_solving.i"
-	@echo "... probs/1912_solving.s"
+	@echo "... Class/practice_midterm.o"
+	@echo "... Class/practice_midterm.i"
+	@echo "... Class/practice_midterm.s"
 .PHONY : help
 
 
